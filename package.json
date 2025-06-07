@@ -1,0 +1,32 @@
+{
+  "name": "linkedin-clone",
+  "version": "1.0.0",
+  "description": "LinkedIn clone with MERN stack",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node backend/index.js",
+    "server": "nodemon backend/index.js",
+    "client": "cd frontend && npm run dev",
+    "dev": "concurrently \"npm run server\" \"npm run client\"",
+    "build": "cd frontend && npm run build",
+    "install-all": "npm install && cd frontend && npm install && cd ../backend && npm install"
+  },
+  "keywords": [
+    "mern",
+    "linkedin",
+    "social",
+    "network"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "concurrently": "^8.2.2"
+  },
+  "devDependencies": {
+    "nodemon": "^3.0.3"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
