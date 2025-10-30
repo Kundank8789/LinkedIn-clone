@@ -2,7 +2,7 @@ import React, { useState, useContext, useRef } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import moment from 'moment';
-import { AuthDataContext } from '../context/AuthContext';
+import { AuthDataContext } from '../Context/AuthContext';
 import defaultProfilePic from '../assets/dp.webp';
 
 const PostItem = ({ post, onDelete, onUpdate }) => {

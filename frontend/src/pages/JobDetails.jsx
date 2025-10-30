@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext } from 'react';
 import { useParams, Link, useNavigate } from 'react-router-dom';
 import axios from 'axios';
 import Nav from '../components/nav.jsx';
-import { AuthDataContext } from '../context/AuthContext';
+import { AuthDataContext } from '../Context/AuthContext.jsx';
 
 const JobDetails = () => {
   const { jobId } = useParams();

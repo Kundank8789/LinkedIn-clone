@@ -2,8 +2,8 @@ import React, { useState, useContext, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Nav from '../components/nav.jsx';
-import { AuthDataContext } from '../context/AuthContext';
-import { UserDataContext } from '../context/userContext';
+import { AuthDataContext } from '../Context/AuthContext.jsx';
+import { UserDataContext } from '../Context/userContext.jsx';
 import ConnectionButton from '../components/ConnectionButton';
 
 const Network = () => {

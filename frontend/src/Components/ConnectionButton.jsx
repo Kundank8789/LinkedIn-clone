@@ -1,5 +1,5 @@
 import React, { useState, useEffect, useContext } from 'react';
-import { AuthDataContext } from '../context/AuthContext';
+import { AuthDataContext } from '../Context/AuthContext';
 import axios from 'axios';
 
 const ConnectionButton = ({ targetUserId, initialConnectionStatus, onStatusChange }) => {

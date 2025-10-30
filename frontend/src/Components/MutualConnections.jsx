@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { Link } from 'react-router-dom';
 import axios from 'axios';
-import { AuthDataContext } from '../context/AuthContext';
+import { AuthDataContext } from '../Context/AuthContext';
 
 const MutualConnections = ({ userId }) => {
   const { serverUrl, currentUser } = useContext(AuthDataContext);

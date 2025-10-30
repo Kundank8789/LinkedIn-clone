@@ -2,7 +2,7 @@ import React, { useState, useEffect, useContext, useRef } from 'react';
 import { useParams, Link } from 'react-router-dom';
 import axios from 'axios';
 import Nav from '../components/nav.jsx';
-import { AuthDataContext } from '../context/AuthContext';
+import { AuthDataContext } from '../Context/AuthContext.jsx';
 import io from 'socket.io-client';
 
 const Conversation = () => {

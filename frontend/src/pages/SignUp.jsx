@@ -1,7 +1,7 @@
 import React, {useContext, useState} from 'react';
 import logo from '../assets/logo.svg';
 // We're using window.location.href for navigation instead of useNavigate
-import { AuthDataContext } from '../context/AuthContext'
+import { AuthDataContext } from '../Context/AuthContext'
 
 function SignUp  ()  {
   const [show, setShow] = useState(false)

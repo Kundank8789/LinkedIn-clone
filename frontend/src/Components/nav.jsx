@@ -7,7 +7,7 @@ import { FaUserFriends } from "react-icons/fa";
 import { IoMdNotifications } from "react-icons/io";
 import { MdWork } from "react-icons/md";
 import { AiOutlineMessage } from "react-icons/ai";
-import { AuthDataContext } from '../context/AuthContext';
+import { AuthDataContext } from '../Context/AuthContext';
 import axios from 'axios';
 import defaultProfilePic from '../assets/dp.webp';
 

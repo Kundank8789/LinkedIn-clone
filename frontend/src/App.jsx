@@ -15,7 +15,7 @@ import Notifications from './pages/Notifications.jsx';
 import Search from './pages/Search.jsx';
 import ForgotPassword from './pages/ForgotPassword.jsx';
 import ResetPassword from './pages/ResetPassword.jsx';
-import { AuthDataContext } from './context/AuthContext.jsx';
+import { AuthDataContext } from './Context/AuthContext.jsx';
 import ProtectedRoute from './components/ProtectedRoute.jsx';
 
 function App() {

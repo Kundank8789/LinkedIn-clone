@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 import axios from 'axios';
 import Nav from '../components/nav.jsx';
 import PostItem from '../components/PostItem';
-import { AuthDataContext } from '../context/AuthContext';
+import { AuthDataContext } from '../Context/AuthContext.jsx';
 import { io } from 'socket.io-client';
 import defaultProfilePic from '../assets/dp.webp';
 function Home() {

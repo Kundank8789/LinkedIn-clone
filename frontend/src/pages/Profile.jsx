@@ -1,7 +1,7 @@
 import React, { useState, useEffect, useContext } from 'react';
 import { useParams, Link } from 'react-router-dom';
-import { AuthDataContext } from '../context/AuthContext';
-import { UserDataContext } from '../context/userContext';
+import { AuthDataContext } from '../Context/AuthContext.jsx';
+import { UserDataContext } from '../Context/userContext.jsx';
 import Nav from '../components/nav.jsx';
 import ConnectionButton from '../components/ConnectionButton';
 import axios from 'axios';
